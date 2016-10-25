@@ -1,0 +1,74 @@
+NewGameIntent to play a game
+NewGameIntent to play game
+NewGameIntent to start game
+NewGameIntent to start a game
+NewGameIntent play a game
+NewGameIntent play game
+NewGameIntent start game
+NewGameIntent start a game
+NewGameIntent resume game
+NewGameIntent resume my game
+NewGameIntent to resume game
+NewGameIntent to resume my game
+NewGameIntent play quiz
+NewGameIntent to play quiz
+NewGameIntent to play a quiz
+NewGameIntent start quiz
+NewGameIntent to start quiz
+NewGameIntent to start a quiz
+NewGameIntent resume quiz
+NewGameIntent to resume quiz
+NewGameIntent to resume a quiz
+NewGameIntent resume
+NewGameIntent to resume
+GuessIntent the word for {letter} is {word}
+GuessIntent the word for the letter {letter} is {word}
+GuessIntent it's {word}
+GuessIntent the word is {word}
+GuessIntent is it {word}
+GuessIntent my guess is {word}
+GuessIntent how about {word}
+GuessIntent what about {word}
+GuessIntent it might be {word}
+GuessIntent {word}
+SkipIntent I don't know
+SkipIntent skip
+SkipIntent pass
+SkipIntent next letter
+SkipIntent skip this letter
+SkipIntent tell me the answer
+SkipIntent next
+SkipIntent no idea
+SkipIntent beats me
+EndGameIntent end game
+EndGameIntent goodbye
+EndGameIntent stop
+EndGameIntent end
+SaveAndQuitIntent save and quit
+StartOverIntent reset
+StartOverIntent reset game
+StartOverIntent start over
+StartOverIntent begin again
+StartOverIntent lets start over
+StartOverIntent lets begin again
+StartOverIntent start new game
+StartOverIntent new game
+StartOverIntent can we start over
+StartOverIntent to reset
+StartOverIntent to reset game
+StartOverIntent to start over
+StartOverIntent to begin again
+StartOverIntent please start over
+StartOverIntent please begin again
+StartOverIntent to start a new game
+StartOverIntent to create a new game
+StartOverIntent can we start over
+WhatIsMyScoreIntent whats my score
+WhatIsMyScoreIntent what is my score
+WhatIsMyScoreIntent how am I doing
+WhatIsMyScoreIntent how many points
+WhatIsMyScoreIntent hows my score
+WhatIsMyScoreIntent tell me my score
+WhatIsMyScoreIntent give me my score
+WhatIsMyScoreIntent tell me my points
+WhatIsMyScoreIntent give me my points

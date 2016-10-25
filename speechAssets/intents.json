@@ -1,0 +1,56 @@
+{
+	  "intents": [
+        { 
+	      "intent": "NewGameIntent"
+	    },
+
+	    { 
+	      "intent": "GuessIntent",
+          "slots": [
+            {
+                "name": "letter",
+                "type": "LIST_OF_ALPHABET"
+            },
+            {
+                "name": "word",
+                "type": "LIST_OF_WORDS"
+            }
+             
+      		]
+	    },
+
+	    {
+	    	"intent": "SkipIntent"
+	    },
+
+	    {
+	    	"intent": "EndGameIntent"
+	    },
+
+	    {
+	    	"intent": "SaveAndQuitIntent"
+	    },
+
+	    {
+	    	"intent": "StartOverIntent"
+	    },
+
+	    {
+	    	"intent": "WhatIsMyScoreIntent"
+	    },
+	     
+	    {
+	      "intent": "AMAZON.HelpIntent"
+	    },
+
+	    {
+	      "intent": "AMAZON.StopIntent"
+	    },
+
+	    {
+	      "intent": "AMAZON.CancelIntent"
+	    }
+
+	  ]
+
+	 }

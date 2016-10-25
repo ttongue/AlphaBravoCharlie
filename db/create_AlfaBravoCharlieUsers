@@ -1,0 +1,24 @@
+var params = {
+    TableName: 'AlfaBravoCharlieUsers',
+    KeySchema: [
+        {
+            AttributeName: 'CustomerId',
+            KeyType: 'HASH'
+        }
+    ],
+    AttributeDefinitions: [
+        {
+            AttributeName: 'CustomerId',
+            AttributeType: 'S'
+        }
+    ],
+    ProvisionedThroughput:  {
+        ReadCapacityUnits: 5,
+        WriteCapacityUnits: 5
+    }
+};
+console.log("Creating the Image table");
+dynamodb.createTable(params, function(err, data) {
+    if (err) ppJson(err); // an error occurred
+    else ppJson(data); // successful response
+});
